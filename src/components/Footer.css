@@ -1,0 +1,19 @@
+footer {
+  padding: 2rem 3rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  letter-spacing: 0.2em;
+  color: var(--muted);
+}
+.footer-logo span { color: var(--gold); }
+.footer-copy {
+  font-size: 0.72rem;
+  color: rgba(245,240,232,0.25);
+  letter-spacing: 0.1em;
+}
